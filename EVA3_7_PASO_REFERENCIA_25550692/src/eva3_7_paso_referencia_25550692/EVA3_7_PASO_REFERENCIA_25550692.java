@@ -34,9 +34,17 @@ public class EVA3_7_PASO_REFERENCIA_25550692 {
              
          }
      }
-      public static void  imprimir(String[] nombre, double[] credito){
+      public static void  imprimir(String[] nombre, double[] credito){//la firma( le dice a java si un metodo esta duplicado)
       for (int i = 0; i <credito.length; i++) {
      System.out.println("Nombre:" + nombre[i] + "Credito: $ " + credito[i]); 
+            
+            
+      }
+     
+      }
+       public static void  imprimir(String[] nombre){
+      for (int i = 0; i <nombre.length; i++) {
+     System.out.println("Nombre:" + nombre[i] ); //sobrecarga en cuando hay dos metodos con el mismo nombre ( varias acciones a desarrolar )
             
             
       }
